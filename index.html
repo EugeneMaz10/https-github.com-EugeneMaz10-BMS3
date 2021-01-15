@@ -267,7 +267,7 @@ $("form#sub").submit(function(event)
 event.preventDefault();
 var number1 = parseInt($("#sub1").val());
 var number2 = parseInt($("#sub2").val());
-var result = subtract(number1, number2);
+var result = subtract(number2, number1);
 $("#output").text(result);
 $("#myTable").append('<tr><th>' + result + '</th><td>' + myArray[i][n] +  '</td></tr>');
 });
